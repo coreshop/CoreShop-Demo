@@ -15,6 +15,7 @@
 namespace CoreShopDemo\Install;
 
 use CoreShop\Model\Category;
+use CoreShop\Model\Manufacturer;
 use CoreShop\Model\Product;
 use CoreShop\Model\Tax;
 use CoreShop\Model\TaxRule;
@@ -40,14 +41,37 @@ class Demo
             $config = \Zend_Json::decode(file_get_contents($file));
 
             foreach ($config as $values) {
-                $taxRuleGroup = new Tax();
+                $tax = $this->getTaxByName($values['name']['en']);
 
-                $taxRuleGroup->setName($values['name']['de'], 'de');
-                $taxRuleGroup->setName($values['name']['en'], 'en');
-                $taxRuleGroup->setRate($values['rate']);
-                $taxRuleGroup->setActive($values['active']);
+                if(!$tax instanceof Tax) {
+                    $tax = new Tax();
+                }
+
+                $tax->setName($values['name']['de'], 'de');
+                $tax->setName($values['name']['en'], 'en');
+                $tax->setRate($values['rate']);
+                $tax->setActive($values['active']);
+                $tax->save();
             }
         }
+    }
+
+    /**
+     * @param $name
+     * @return bool|Tax
+     */
+    protected function getTaxByName($name) {
+        $list = Tax::getList();
+
+        $list->setLocale("en");
+        $list->setCondition("name = ?", $name);
+        $list = $list->load();
+
+        if(count($list) > 0) {
+            return $list[0];
+        }
+
+        return false;
     }
 
     /**
@@ -61,27 +85,24 @@ class Demo
         if (file_exists($file)) {
             $config = \Zend_Json::decode(file_get_contents($file));
 
-            $taxes = Tax::getList();
-            $taxes->load();
-            $taxes = $taxes->getData();
-
             foreach ($config as $values) {
-                $taxRuleGroup = new TaxRuleGroup();
+                $taxRuleGroup = $this->getTaxRuleGroupByName($values['name']);
+
+                if(!$taxRuleGroup instanceof TaxRuleGroup) {
+                    $taxRuleGroup = new TaxRuleGroup();
+                }
 
                 $taxRuleGroup->setName($values['name']);
                 $taxRuleGroup->setActive($values['active']);
                 $taxRuleGroup->setShopIds([1]);
                 $taxRuleGroup->save();
 
-                foreach($values['rules']['rule'] as $rule) {
-                    $tax = null;
+                foreach($taxRuleGroup->getRules() as $rule) {
+                    $rule->delete();
+                }
 
-                    foreach($taxes as $taxesTax) {
-                        if(strtolower($taxesTax->getName("en")) === strtolower($rule['tax'])) {
-                            $tax = $taxesTax;
-                            break;
-                        }
-                    }
+                foreach($values['rules']['rule'] as $rule) {
+                    $tax = $this->getTaxByName($rule['tax']);
 
                     $taxRule = new TaxRule();
                     $taxRule->setCountryId($rule['country']);
@@ -93,6 +114,55 @@ class Demo
                 }
             }
         }
+    }
+
+    /**
+     * @param $name
+     * @return \CoreShop\Model\AbstractModel|null
+     */
+    protected function getTaxRuleGroupByName($name) {
+        return TaxRuleGroup::getByField("name", $name);
+    }
+
+    /**
+     * @param $json
+     */
+    public function installDemoManufacturers($json) {
+        $file = PIMCORE_PLUGINS_PATH."/CoreShopDemo/data/demo/$json.json";
+
+        if (file_exists($file)) {
+            $config = \Zend_Json::decode(file_get_contents($file));
+
+            foreach ($config as $values) {
+                $manufacturer = $this->getManufacturerByName($values['name']);
+
+                if(!$manufacturer instanceof Manufacturer) {
+                    $manufacturer = Manufacturer::create();
+                }
+
+                $manufacturer->setName($values['name']);
+                $manufacturer->setPublished(true);
+                $manufacturer->setParent(Object\Service::createFolderByPath("/coreshop-demo/manufacturers"));
+                $manufacturer->setKey(File::getValidFilename($values['name']));
+                $manufacturer->save();
+            }
+        }
+    }
+
+    /**
+     * @param $name
+     * @return Manufacturer|bool
+     */
+    protected function getManufacturerByName($name) {
+        $list = Manufacturer::getList();
+        $list->setCondition("o_path LIKE '/coreshop-demo/%' AND name=?", $name);
+        $list = $list->load();
+
+        if(count($list) === 1) {
+            return $list[0];
+        }
+
+        return false;
     }
 
     /**
@@ -205,6 +275,8 @@ class Demo
                 $product->setWholesalePrice($values['wholesalePrice']);
                 $product->setRetailPrice($values['retailPrice']);
                 $product->setTaxRule(TaxRuleGroup::getByField("name", $values['taxRule']));
+                $product->setManufacturer($this->getManufacturerByName($values['manufacturer']));
+                $product->setShops([1]);
                 $product->setKey($key);
                 $product->setParent($parent);
                 $product->setPublished(true);

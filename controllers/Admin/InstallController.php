@@ -21,7 +21,9 @@ use CoreShop\Controller\Action\Admin;
 class CoreShopDemo_Admin_InstallController extends Admin
 {
     public function installDemoAction() {
-        if(\CoreShop\Model\Configuration::get("CORESHOPDEMO.INSTALLED")) {
+        $force = $this->getParam("force", false);
+
+        if(\CoreShop\Model\Configuration::get("CORESHOPDEMO.INSTALLED") && !$force) {
             $this->_helper->json(["success" => false, "message" => "Demo already installed"]);
         }
 
@@ -32,6 +34,7 @@ class CoreShopDemo_Admin_InstallController extends Admin
         $install->installDemoDataTaxes('taxes');
         $install->installDemoDataTaxRules('taxRules');
         $install->installDemoDataCategories('categories');
+        $install->installDemoManufacturers('manufacturers');
         $install->installDemoDataProducts('products');
 
         \Pimcore::getEventManager()->trigger('coreshop.install.demo.post', null, array('installer' => $install));
