@@ -14,7 +14,9 @@
 
 namespace CoreShopDemo\Install;
 
+use CoreShop\Exception;
 use CoreShop\Model\Category;
+use CoreShop\Model\Index;
 use CoreShop\Model\Manufacturer;
 use CoreShop\Model\Product;
 use CoreShop\Model\Tax;
@@ -22,6 +24,7 @@ use CoreShop\Model\TaxRule;
 use CoreShop\Model\TaxRuleGroup;
 use Pimcore\File;
 use Pimcore\Model\Object;
+use Pimcore\Tool;
 
 /**
  * Class Demo
@@ -212,8 +215,13 @@ class Demo
             $category->setParent($path);
         }
 
+        if(array_key_exists("filter", $data)) {
+            $category->setFilterDefinition(Product\Filter::getByField("name", $data['filter']));
+        }
+
         $category->setName($data['name']['en'], "en");
         $category->setName($data['name']['de'], "de");
+        $category->setShops([1]);
         $category->setKey($name);
         $category->setPublished(true);
         $category->save();
@@ -282,6 +290,124 @@ class Demo
                 $product->setPublished(true);
 
                 $product->save();
+            }
+        }
+    }
+
+    /**
+     * @param $json
+     *
+     * @throws Exception
+     */
+    public function installDemoIndex($json) {
+        $file = PIMCORE_PLUGINS_PATH."/CoreShopDemo/data/demo/$json.json";
+
+        $prohibitedFieldNames = ["name", "id"];
+
+        if (file_exists($file)) {
+            $index = \Zend_Json::decode(file_get_contents($file));
+
+            foreach($index as $values) {
+                $index = Index::getByField("name", $values['name']);
+
+                if(!$index instanceof Index) {
+                    $index = new Index();
+                }
+
+                $index->setName($values['name']);
+                $index->setType($values['type']);
+
+                $configClass = '\\CoreShop\\Model\\Index\\Config\\' . ucfirst($values['type']);
+
+                if (Tool::classExists($configClass)) {
+                    $config = new $configClass();
+
+                    if ($config instanceof \CoreShop\Model\Index\Config) {
+                        $columns = array();
+
+                        foreach ($values['fields'] as $col)
+                        {
+                            $objectType = ucfirst($col['objectType']);
+
+                            if (!$col['key']) {
+                                continue;
+                            }
+
+                            $class = null;
+
+                            //Allow Column-Types to be declared in Template and/or Website
+                            $columnNamespace = '\\CoreShop\\Model\\Index\\Config\\Column\\';
+                            $columnClass = $columnNamespace . $values['type'] . '\\' . $objectType;
+
+                            if (Tool::classExists($columnClass)) {
+                                $class = $columnClass;
+                            }
+
+                            if (!$class) {
+                                //Use fallback column
+                                throw new Exception('No config implementation for column with type ' . $objectType . ' found');
+                            }
+
+                            $columnObject = new $class();
+
+                            if ($columnObject instanceof \CoreShop\Model\Index\Config\Column\AbstractColumn) {
+                                $columnObject->setValues($col);
+
+                                if (in_array($columnObject->getName(), $prohibitedFieldNames)) {
+                                    throw new Exception(sprintf('Field Name "%s" is prohibited for indexes', $columnObject->getName()));
+                                }
+
+                                $columnObject->validate();
+
+                                $columns[] = $columnObject;
+                            }
+                        }
+
+                        $config->setColumns($columns);
+                        $index->setConfig($config);
+                    } else {
+                        throw new Exception('Config class for type ' . $values['type'] . ' not instanceof \CoreShop\Model\Index\Config');
+                    }
+
+                } else {
+                    throw new Exception('Config class for type ' . $values['type'] . ' not found');
+                }
+
+                $index->save();
+
+                \CoreShop\IndexService::getIndexService()->getWorker($index->getName())->createOrUpdateIndexStructures();
+            }
+        }
+    }
+
+    /**
+     * @param $json
+     */
+    public function installDemoFilter($json) {
+        $file = PIMCORE_PLUGINS_PATH."/CoreShopDemo/data/demo/$json.json";
+
+        if (file_exists($file)) {
+            $filters = \Zend_Json::decode(file_get_contents($file));
+
+            foreach($filters as $values) {
+                $filter = Product\Filter::getByField("name", $values['name']);
+
+                if(!$filter instanceof Product\Filter) {
+                    $filter = new Product\Filter();
+                }
+
+                $conditionNamespace = 'CoreShop\\Model\\Product\\Filter\\Condition\\';
+                $similarityNamespace = 'CoreShop\\Model\\Product\\Filter\\Similarity\\';
+
+                $filtersInstances = $filter->prepareConditions($values['conditions'], $conditionNamespace);
+                $similaritiesInstances = $filter->prepareSimilarities($values['similarities'], $similarityNamespace);
+
+                $filter->setValues($values);
+                $filter->setIndex(Index::getByField("name", "demo")->getId());
+                $filter->setPreConditions([]);
+                $filter->setFilters($filtersInstances);
+                $filter->setSimilarities($similaritiesInstances);
+                $filter->save();
             }
         }
     }
