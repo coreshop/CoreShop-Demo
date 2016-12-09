@@ -23,7 +23,7 @@
     "categories": ["Coffee - Accessoires"],
     "wholesalePrice": 22,
     "retailPrice": 22,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Julius Meinl"
   },
   {
@@ -50,7 +50,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 275,
     "retailPrice": 275,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Delonghi"
   },
   {
@@ -104,7 +104,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 208,
     "retailPrice": 176.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Delonghi"
   },
   {
@@ -131,7 +131,7 @@
     "categories": ["Wall Holder"],
     "wholesalePrice": 0,
     "retailPrice": 99.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Vogel\u00b4s"
   },
   {
@@ -158,7 +158,7 @@
     "categories": ["Wall Holder"],
     "wholesalePrice": 0,
     "retailPrice": 66,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Vogel\u00b4s"
   },
   {
@@ -185,7 +185,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 31.64,
     "retailPrice": 26.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Braun"
   },
   {
@@ -212,7 +212,7 @@
     "categories": ["Coffee - Accessoires"],
     "wholesalePrice": 0,
     "retailPrice": 14,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Julius Meinl"
   },
   {
@@ -239,7 +239,7 @@
     "categories": ["Coffee - Accessoires"],
     "wholesalePrice": 0,
     "retailPrice": 12.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Julius Meinl"
   },
   {
@@ -293,7 +293,7 @@
     "categories": ["Soundbars"],
     "wholesalePrice": 0,
     "retailPrice": 265.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -320,7 +320,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 272,
     "retailPrice": 266,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -347,7 +347,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 1348,
     "retailPrice": 1126,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -374,7 +374,7 @@
     "categories": ["46 - 52 inch"],
     "wholesalePrice": 547,
     "retailPrice": 402.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -401,7 +401,7 @@
     "categories": ["39 - 43 Inch"],
     "wholesalePrice": 454,
     "retailPrice": 532.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -428,7 +428,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 2724,
     "retailPrice": 2932.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -455,7 +455,7 @@
     "categories": ["39 - 43 Inch"],
     "wholesalePrice": 371,
     "retailPrice": 332,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -482,7 +482,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 547,
     "retailPrice": 464.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -509,7 +509,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 421.44,
     "retailPrice": 432.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nivona"
   },
   {
@@ -536,7 +536,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 233,
     "retailPrice": 232.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -563,7 +563,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 2228.11,
     "retailPrice": 2199.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -590,7 +590,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 1141,
     "retailPrice": 993.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -617,7 +617,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 1072,
     "retailPrice": 998.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -644,7 +644,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 704,
     "retailPrice": 659.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -671,7 +671,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 1102,
     "retailPrice": 996.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -698,7 +698,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 105,
     "retailPrice": 126.6,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -725,7 +725,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 69,
     "retailPrice": 79.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -752,7 +752,7 @@
     "categories": ["> 32 inch", "TV"],
     "wholesalePrice": 289,
     "retailPrice": 252.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -779,7 +779,7 @@
     "categories": ["TV", "> 32 inch"],
     "wholesalePrice": 199,
     "retailPrice": 219.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -806,7 +806,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 288,
     "retailPrice": 282.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -833,7 +833,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 397.72,
     "retailPrice": 399.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -860,7 +860,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 799,
     "retailPrice": 1132,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -887,7 +887,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 265,
     "retailPrice": 332.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -914,7 +914,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 1030,
     "retailPrice": 1066,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -941,7 +941,7 @@
     "categories": ["> 55 inch", "TV"],
     "wholesalePrice": 925.42,
     "retailPrice": 866,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -968,7 +968,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 499,
     "retailPrice": 586,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -995,7 +995,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 402.55,
     "retailPrice": 377.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -1022,7 +1022,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 15.95,
     "retailPrice": 15.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Severin"
   },
   {
@@ -1049,7 +1049,7 @@
     "categories": ["TV", "> 32 inch"],
     "wholesalePrice": 299,
     "retailPrice": 366,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -1076,7 +1076,7 @@
     "categories": ["TV", "> 32 inch"],
     "wholesalePrice": 220,
     "retailPrice": 266,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Grundig"
   },
   {
@@ -1103,7 +1103,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 646.02,
     "retailPrice": 632.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -1130,7 +1130,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 439,
     "retailPrice": 399.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -1157,7 +1157,7 @@
     "categories": ["Milk Frother"],
     "wholesalePrice": 37.2,
     "retailPrice": 39.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Cremesso"
   },
   {
@@ -1184,7 +1184,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 82.5,
     "retailPrice": 99.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -1211,7 +1211,7 @@
     "categories": ["Milk Frother"],
     "wholesalePrice": 21.9,
     "retailPrice": 52.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Turix"
   },
   {
@@ -1238,7 +1238,7 @@
     "categories": ["Coffee - Accessoires"],
     "wholesalePrice": 18.69,
     "retailPrice": 19.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Cremesso"
   },
   {
@@ -1265,7 +1265,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 1139,
     "retailPrice": 1466,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -1292,7 +1292,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 2139,
     "retailPrice": 2799.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -1319,7 +1319,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 669,
     "retailPrice": 666,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -1346,7 +1346,7 @@
     "categories": ["39 - 43 Inch", "TV"],
     "wholesalePrice": 299,
     "retailPrice": 332.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -1400,7 +1400,7 @@
     "categories": ["> 32 inch", "TV"],
     "wholesalePrice": 329,
     "retailPrice": 332.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -1427,7 +1427,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 215,
     "retailPrice": 366.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Krups"
   },
   {
@@ -1454,7 +1454,7 @@
     "categories": ["46 - 52 inch", "TV"],
     "wholesalePrice": 960,
     "retailPrice": 999.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -1481,7 +1481,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 425,
     "retailPrice": 519.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -1508,7 +1508,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 82.5,
     "retailPrice": 79.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -1535,7 +1535,7 @@
     "categories": ["Coffee Grinder"],
     "wholesalePrice": 21.33,
     "retailPrice": 21.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Caso"
   },
   {
@@ -1562,7 +1562,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 233,
     "retailPrice": 239.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Krups"
   },
   {
@@ -1589,7 +1589,7 @@
     "categories": ["> 32 inch", "TV"],
     "wholesalePrice": 220,
     "retailPrice": 232.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -1616,7 +1616,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 26.73,
     "retailPrice": 29.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Tefal"
   },
   {
@@ -1643,7 +1643,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 960,
     "retailPrice": 999.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -1670,7 +1670,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 361.56,
     "retailPrice": 366.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -1697,7 +1697,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 899,
     "retailPrice": 999.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -1724,7 +1724,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 289.99,
     "retailPrice": 299.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -1751,7 +1751,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 425,
     "retailPrice": 399.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -1778,7 +1778,7 @@
     "categories": ["TV", "< 28 inch"],
     "wholesalePrice": 219.99,
     "retailPrice": 212.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -1805,7 +1805,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 28.84,
     "retailPrice": 36.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -1832,7 +1832,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 397.72,
     "retailPrice": 466.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -1859,7 +1859,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 649,
     "retailPrice": 866,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -1886,7 +1886,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 646,
     "retailPrice": 666,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -1913,7 +1913,7 @@
     "categories": ["TV", "> 32 inch"],
     "wholesalePrice": 249,
     "retailPrice": 252.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -1940,7 +1940,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 289,
     "retailPrice": 299.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -1967,7 +1967,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 27.2,
     "retailPrice": 46.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -1994,7 +1994,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 512,
     "retailPrice": 466,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -2021,7 +2021,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 23.76,
     "retailPrice": 26.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Moulinex"
   },
   {
@@ -2048,7 +2048,7 @@
     "categories": ["Coffee Grinder"],
     "wholesalePrice": 11.05,
     "retailPrice": 16.6,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "ECG"
   },
   {
@@ -2075,7 +2075,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 37.83,
     "retailPrice": 39.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Braun"
   },
   {
@@ -2102,7 +2102,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 397.72,
     "retailPrice": 399.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -2129,7 +2129,7 @@
     "categories": ["TV", "< 28 inch"],
     "wholesalePrice": 209,
     "retailPrice": 252.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Grundig"
   },
   {
@@ -2156,7 +2156,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 385,
     "retailPrice": 499.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -2183,7 +2183,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 1867.25,
     "retailPrice": 1598.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -2210,7 +2210,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 51.83,
     "retailPrice": 59.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "WMF"
   },
   {
@@ -2237,7 +2237,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 71.27,
     "retailPrice": 79.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "WMF"
   },
   {
@@ -2264,7 +2264,7 @@
     "categories": ["46 - 52 inch", "TV"],
     "wholesalePrice": 646,
     "retailPrice": 666,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -2291,7 +2291,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 445,
     "retailPrice": 499.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -2318,7 +2318,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 145,
     "retailPrice": 166,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -2345,7 +2345,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 519,
     "retailPrice": 532.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -2372,7 +2372,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 399,
     "retailPrice": 432.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -2399,7 +2399,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 427,
     "retailPrice": 499.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -2426,7 +2426,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 389,
     "retailPrice": 352.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -2453,7 +2453,7 @@
     "categories": ["TV", "> 32 inch"],
     "wholesalePrice": 259,
     "retailPrice": 252.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -2480,7 +2480,7 @@
     "categories": ["TV", "> 32 inch"],
     "wholesalePrice": 270,
     "retailPrice": 299.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -2507,7 +2507,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 799,
     "retailPrice": 832.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -2534,7 +2534,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 650,
     "retailPrice": 666,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -2561,7 +2561,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 509,
     "retailPrice": 499.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -2588,7 +2588,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 1220,
     "retailPrice": 1266,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -2615,7 +2615,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 979,
     "retailPrice": 999.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -2642,7 +2642,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 29.9,
     "retailPrice": 39.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Kennwod"
   },
   {
@@ -2669,7 +2669,7 @@
     "categories": ["< 28 inch", "TV"],
     "wholesalePrice": 199,
     "retailPrice": 199.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -2696,7 +2696,7 @@
     "categories": ["TV", "< 28 inch"],
     "wholesalePrice": 189,
     "retailPrice": 186,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -2723,7 +2723,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 230,
     "retailPrice": 279.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -2750,7 +2750,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 28.71,
     "retailPrice": 33.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Moulinex"
   },
   {
@@ -2777,7 +2777,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 58.3,
     "retailPrice": 56.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Rowenta"
   },
   {
@@ -2804,7 +2804,7 @@
     "categories": ["< 28 inch", "TV"],
     "wholesalePrice": 245,
     "retailPrice": 232.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -2831,7 +2831,7 @@
     "categories": ["46 - 52 inch", "TV"],
     "wholesalePrice": 499,
     "retailPrice": 466,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -2858,7 +2858,7 @@
     "categories": ["39 - 43 Inch", "TV"],
     "wholesalePrice": 299,
     "retailPrice": 332.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -2885,7 +2885,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 341,
     "retailPrice": 466.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Krups"
   },
   {
@@ -2912,7 +2912,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 105,
     "retailPrice": 99.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -2939,7 +2939,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 550,
     "retailPrice": 566,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -2966,7 +2966,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 31.9,
     "retailPrice": 33.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Krups"
   },
   {
@@ -2993,7 +2993,7 @@
     "categories": ["Coffee Grinder"],
     "wholesalePrice": 19.9,
     "retailPrice": 19.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Trisa"
   },
   {
@@ -3020,7 +3020,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 27.97,
     "retailPrice": 28.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Kennwod"
   },
   {
@@ -3047,7 +3047,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 49.5,
     "retailPrice": 49.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Rowenta"
   },
   {
@@ -3074,7 +3074,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 1646,
     "retailPrice": 1752,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -3101,7 +3101,7 @@
     "categories": ["< 28 inch", "TV"],
     "wholesalePrice": 180,
     "retailPrice": 199.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -3128,7 +3128,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 51.83,
     "retailPrice": 59.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "WMF"
   },
   {
@@ -3155,7 +3155,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 20.14,
     "retailPrice": 31.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -3182,7 +3182,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 618,
     "retailPrice": 566,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -3209,7 +3209,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 472,
     "retailPrice": 429.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -3236,7 +3236,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 439,
     "retailPrice": 466,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -3263,7 +3263,7 @@
     "categories": ["< 28 inch", "TV"],
     "wholesalePrice": 169,
     "retailPrice": 199.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Grundig"
   },
   {
@@ -3290,7 +3290,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 339.87,
     "retailPrice": 399.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -3317,7 +3317,7 @@
     "categories": ["> 32 inch", "TV"],
     "wholesalePrice": 314,
     "retailPrice": 286,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -3344,7 +3344,7 @@
     "categories": ["> 32 inch", "TV"],
     "wholesalePrice": 269,
     "retailPrice": 252.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -3371,7 +3371,7 @@
     "categories": ["46 - 52 inch", "TV"],
     "wholesalePrice": 465,
     "retailPrice": 432.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -3398,7 +3398,7 @@
     "categories": ["Record Player"],
     "wholesalePrice": 70,
     "retailPrice": 83.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "K\u00f6nig"
   },
   {
@@ -3425,7 +3425,7 @@
     "categories": ["TV", "< 28 inch"],
     "wholesalePrice": 149,
     "retailPrice": 152.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -3452,7 +3452,7 @@
     "categories": ["Milk Frother"],
     "wholesalePrice": 23.67,
     "retailPrice": 39.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "ECG"
   },
   {
@@ -3479,7 +3479,7 @@
     "categories": ["Coffee Grinder"],
     "wholesalePrice": 23.65,
     "retailPrice": 29.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Moulinex"
   },
   {
@@ -3506,7 +3506,7 @@
     "categories": ["Coffee Grinder"],
     "wholesalePrice": 12.95,
     "retailPrice": 14.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Severin"
   },
   {
@@ -3533,7 +3533,7 @@
     "categories": ["Coffee - Accessoires"],
     "wholesalePrice": 24.9,
     "retailPrice": 26.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Turix"
   },
   {
@@ -3560,7 +3560,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 45.68,
     "retailPrice": 69.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -3587,7 +3587,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 31.9,
     "retailPrice": 33.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Krups"
   },
   {
@@ -3614,7 +3614,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 979,
     "retailPrice": 1152,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -3641,7 +3641,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 785,
     "retailPrice": 799.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -3668,7 +3668,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 785,
     "retailPrice": 799.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -3695,7 +3695,7 @@
     "categories": ["> 32 inch", "TV"],
     "wholesalePrice": 370,
     "retailPrice": 352.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -3722,7 +3722,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 470.03,
     "retailPrice": 466,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -3749,7 +3749,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 578.51,
     "retailPrice": 506,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -3776,7 +3776,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 520.66,
     "retailPrice": 566.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -3803,7 +3803,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 470.03,
     "retailPrice": 466.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -3830,7 +3830,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 31.9,
     "retailPrice": 33.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Krups"
   },
   {
@@ -3857,7 +3857,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 20.24,
     "retailPrice": 19.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Trisa"
   },
   {
@@ -3884,7 +3884,7 @@
     "categories": ["46 - 52 inch", "TV"],
     "wholesalePrice": 960,
     "retailPrice": 999.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -3911,7 +3911,7 @@
     "categories": ["39 - 43 Inch", "TV"],
     "wholesalePrice": 310,
     "retailPrice": 332.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Grundig"
   },
   {
@@ -3938,7 +3938,7 @@
     "categories": ["> 55 inch", "TV"],
     "wholesalePrice": 1220,
     "retailPrice": 1266,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -3965,7 +3965,7 @@
     "categories": ["Milk Frother"],
     "wholesalePrice": 59.9,
     "retailPrice": 73.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -3992,7 +3992,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 32.39,
     "retailPrice": 39.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "WMF"
   },
   {
@@ -4019,7 +4019,7 @@
     "categories": ["TV", "46 - 52 inch"],
     "wholesalePrice": 686,
     "retailPrice": 666,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -4046,7 +4046,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 821,
     "retailPrice": 932.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -4073,7 +4073,7 @@
     "categories": ["TV", "< 28 inch"],
     "wholesalePrice": 179.99,
     "retailPrice": 179.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -4100,7 +4100,7 @@
     "categories": ["46 - 52 inch", "TV"],
     "wholesalePrice": 545,
     "retailPrice": 499.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -4127,7 +4127,7 @@
     "categories": ["39 - 43 Inch", "TV"],
     "wholesalePrice": 385,
     "retailPrice": 386,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -4154,7 +4154,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 117,
     "retailPrice": 113.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -4181,7 +4181,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 39.6,
     "retailPrice": 43.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Tefal"
   },
   {
@@ -4208,7 +4208,7 @@
     "categories": ["Milk Frother"],
     "wholesalePrice": 33.33,
     "retailPrice": 33.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Caso"
   },
   {
@@ -4235,7 +4235,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 43.56,
     "retailPrice": 43.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Moulinex"
   },
   {
@@ -4262,7 +4262,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 59.4,
     "retailPrice": 56.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Rowenta"
   },
   {
@@ -4289,7 +4289,7 @@
     "categories": ["Coffee Grinder"],
     "wholesalePrice": 44,
     "retailPrice": 46.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Krups"
   },
   {
@@ -4316,7 +4316,7 @@
     "categories": ["TV", "> 55 inch"],
     "wholesalePrice": 775,
     "retailPrice": 799.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -4343,7 +4343,7 @@
     "categories": ["TV", "> 32 inch"],
     "wholesalePrice": 285,
     "retailPrice": 266,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -4370,7 +4370,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 30.6,
     "retailPrice": 31.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Severin"
   },
   {
@@ -4397,7 +4397,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 280,
     "retailPrice": 286.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -4424,7 +4424,7 @@
     "categories": ["Milk Frother"],
     "wholesalePrice": 39.99,
     "retailPrice": 39.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Caso"
   },
   {
@@ -4451,7 +4451,7 @@
     "categories": ["> 55 inch", "TV"],
     "wholesalePrice": 1220,
     "retailPrice": 1266,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Panasonic"
   },
   {
@@ -4478,7 +4478,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 59.99,
     "retailPrice": 59.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Nabo"
   },
   {
@@ -4505,7 +4505,7 @@
     "categories": ["39 - 43 Inch", "TV"],
     "wholesalePrice": 379.62,
     "retailPrice": 366,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -4532,7 +4532,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 335.35,
     "retailPrice": 333.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -4559,7 +4559,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 1348,
     "retailPrice": 1180,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -4586,7 +4586,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 32.64,
     "retailPrice": 39.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -4613,7 +4613,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 310.94,
     "retailPrice": 333.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -4640,7 +4640,7 @@
     "categories": ["Compact Systems"],
     "wholesalePrice": 49.18,
     "retailPrice": 46.6,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "ECG"
   },
   {
@@ -4667,7 +4667,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 43.78,
     "retailPrice": 46.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Braun"
   },
   {
@@ -4694,7 +4694,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 18.16,
     "retailPrice": 19.936,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "ECG"
   },
   {
@@ -4721,7 +4721,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 455.57,
     "retailPrice": 533.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Philips"
   },
   {
@@ -4748,7 +4748,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 22,
     "retailPrice": 26.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Tefal"
   },
   {
@@ -4775,7 +4775,7 @@
     "categories": ["Coffee - Accessoires"],
     "wholesalePrice": 12.95,
     "retailPrice": 13.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "WMF"
   },
   {
@@ -4802,7 +4802,7 @@
     "categories": ["TV", "< 28 inch"],
     "wholesalePrice": 169,
     "retailPrice": 199.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Grundig"
   },
   {
@@ -4829,7 +4829,7 @@
     "categories": ["39 - 43 Inch", "TV"],
     "wholesalePrice": 645,
     "retailPrice": 699.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -4856,7 +4856,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 1072,
     "retailPrice": 999.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -4883,7 +4883,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 37.83,
     "retailPrice": 39.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Braun"
   },
   {
@@ -4910,7 +4910,7 @@
     "categories": ["> 55 inch", "TV"],
     "wholesalePrice": 1299,
     "retailPrice": 1532.664,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "LG"
   },
   {
@@ -4937,7 +4937,7 @@
     "categories": ["Coffee - Accessoires"],
     "wholesalePrice": 9.71,
     "retailPrice": 9.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "WMF"
   },
   {
@@ -4964,7 +4964,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 45.35,
     "retailPrice": 53.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "WMF"
   },
   {
@@ -4991,7 +4991,7 @@
     "categories": ["> 55 inch", "TV"],
     "wholesalePrice": 868,
     "retailPrice": 866,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Sony"
   },
   {
@@ -5018,7 +5018,7 @@
     "categories": ["> 32 inch", "TV"],
     "wholesalePrice": 235,
     "retailPrice": 266,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Toshiba"
   },
   {
@@ -5045,7 +5045,7 @@
     "categories": ["TV", "39 - 43 Inch"],
     "wholesalePrice": 590,
     "retailPrice": 699.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -5072,7 +5072,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 23.65,
     "retailPrice": 29.992,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Moulinex"
   },
   {
@@ -5099,7 +5099,7 @@
     "categories": ["> 55 inch"],
     "wholesalePrice": 2228.11,
     "retailPrice": 2199.336,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Samsung"
   },
   {
@@ -5153,7 +5153,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 34.1,
     "retailPrice": 33.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Rowenta"
   },
   {
@@ -5180,7 +5180,7 @@
     "categories": ["Filter Coffee Machines"],
     "wholesalePrice": 34.1,
     "retailPrice": 33.328,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Rowenta"
   },
   {
@@ -5207,7 +5207,7 @@
     "categories": ["Coffee - Accessoires"],
     "wholesalePrice": 0,
     "retailPrice": 20,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Turix"
   },
   {
@@ -5234,7 +5234,7 @@
     "categories": ["Espresso - Automatic Machine"],
     "wholesalePrice": 275,
     "retailPrice": 275,
-    "taxRule": "20AT",
+    "taxRule": "20ATDEMO",
     "manufacturer": "Delonghi"
   }
 ]

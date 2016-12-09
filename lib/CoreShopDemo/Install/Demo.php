@@ -49,7 +49,7 @@ class Demo
                 $tax = $this->getTaxByName($values['name']['en']);
 
                 if(!$tax instanceof Tax) {
-                    $tax = new Tax();
+                    $tax = Tax::create();
                 }
 
                 $tax->setName($values['name']['de'], 'de');
@@ -94,7 +94,7 @@ class Demo
                 $taxRuleGroup = $this->getTaxRuleGroupByName($values['name']);
 
                 if(!$taxRuleGroup instanceof TaxRuleGroup) {
-                    $taxRuleGroup = new TaxRuleGroup();
+                    $taxRuleGroup = TaxRuleGroup::create();
                 }
 
                 $taxRuleGroup->setName($values['name']);
@@ -109,7 +109,7 @@ class Demo
                 foreach($values['rules']['rule'] as $rule) {
                     $tax = $this->getTaxByName($rule['tax']);
 
-                    $taxRule = new TaxRule();
+                    $taxRule = TaxRule::create();
                     $taxRule->setCountryId($rule['country']);
                     $taxRule->setStateId($rule['state']);
                     $taxRule->setTax($tax);
@@ -313,7 +313,7 @@ class Demo
                 $index = Index::getByField("name", $values['name']);
 
                 if(!$index instanceof Index) {
-                    $index = new Index();
+                    $index = Index::create();
                 }
 
                 $index->setName($values['name']);
@@ -395,7 +395,7 @@ class Demo
                 $filter = Product\Filter::getByField("name", $values['name']);
 
                 if(!$filter instanceof Product\Filter) {
-                    $filter = new Product\Filter();
+                    $filter = Product\Filter::create();
                 }
 
                 $conditionNamespace = 'CoreShop\\Model\\Product\\Filter\\Condition\\';
@@ -427,7 +427,7 @@ class Demo
                 $shippingRule = ShippingRule::getByField("name", $values['name']);
 
                 if(!$shippingRule instanceof ShippingRule) {
-                    $shippingRule = new ShippingRule();
+                    $shippingRule = ShippingRule::create();
                 }
 
                 $conditions = $values['conditions'];
@@ -460,7 +460,7 @@ class Demo
                 $carrier = Carrier::getByField("name", $values['name']);
 
                 if(!$carrier instanceof Carrier) {
-                    $carrier = new Carrier();
+                    $carrier = Carrier::create();
                 }
 
                 $carrier->setTaxRuleGroup(TaxRuleGroup::getByField("name", $values['taxRule']));
@@ -475,7 +475,7 @@ class Demo
                     $rule = ShippingRule::getByField("name", $ruleName);
 
                     if($rule instanceof ShippingRule) {
-                        $group = new Carrier\ShippingRuleGroup();
+                        $group = Carrier\ShippingRuleGroup::create();
                         $group->setPriority($i);
                         $group->setCarrier($carrier);
                         $group->setShippingRule($rule);

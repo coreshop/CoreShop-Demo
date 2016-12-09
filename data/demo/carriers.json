@@ -6,7 +6,7 @@
     "grade" : 1,
     "trackingUrl" : "https://coreshop.at/track/%s",
     "isFree" : false,
-    "taxRule" : "20at",
+    "taxRule" : "20ATDEMO",
     "rangeBehaviour" : "largest",
     "shippingRules" : [
       "Demo-0", "Demo-150", "Demo-2000"

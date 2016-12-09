@@ -1,19 +1,19 @@
 [
   {
-    "name": "20AT",
+    "name": "20ATDEMO",
     "active": "1",
     "rules": {
       "rule": [
         {
           "country": "2",
           "state": "0",
-          "tax": "20at",
+          "tax": "20ATDEMO",
           "behaviour": "0"
         },
         {
           "country": "1",
           "state": "0",
-          "tax": "20at",
+          "tax": "20ATDEMO",
           "behaviour": "0"
         }
       ]

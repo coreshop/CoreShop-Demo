@@ -1,16 +1,16 @@
 [
   {
     "name": {
-      "en": "20AT",
-      "de": "20AT"
+      "en": "20ATDEMO",
+      "de": "20ATDEMO"
     },
     "rate": "20",
     "active": "1"
   },
   {
     "name": {
-      "en": "10AT",
-      "de": "10AT"
+      "en": "10ATDEMO",
+      "de": "10ATDEMO"
     },
     "rate": "10",
     "active": "1"
