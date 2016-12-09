@@ -1,0 +1,154 @@
+[
+  {
+    "name":
+    {
+      "en": "TV, Audio & Video",
+      "de": "TV, Audio & Video"
+    },
+    "childs": [
+      {
+        "name":
+        {
+          "en": "TV",
+          "de": "TV"
+        },
+        "childs": [
+          {
+            "name":
+            {
+              "en": "< 28 inch",
+              "de": "< 28 Zoll"
+            },
+            "childs": []
+          },
+          {
+            "name":
+            {
+              "en": "> 32 inch",
+              "de": "> 31 Zoll"
+            },
+            "childs": []
+          },
+          {
+            "name":
+            {
+              "en": "39 - 43 Inch",
+              "de": "39 - 43 Zoll"
+            },
+            "childs": []
+          },
+          {
+            "name":
+            {
+              "en": "46 - 52 inch",
+              "de": "46 - 52 Zoll"
+            },
+            "childs": []
+          },
+          {
+            "name":
+            {
+              "en": "> 55 inch",
+              "de": "> 55 Zoll"
+            },
+            "childs": []
+          }]
+      },
+      {
+        "name":
+        {
+          "en": "HiFi & Heimkino",
+          "de": "HiFi & Homecinema"
+        },
+        "childs": [
+          {
+            "name":
+            {
+              "en": "Compact Systems",
+              "de": "Kompaktanlagen"
+            },
+            "childs": []
+          },
+          {
+            "name":
+            {
+              "en": "Record Player",
+              "de": "Plattenspieler"
+            },
+            "childs": []
+          }]
+      },
+      {
+        "name":
+        {
+          "en": "Soundbars",
+          "de": "Soundbars"
+        },
+        "childs": []
+      },
+      {
+        "name":
+        {
+          "en": "Accessories",
+          "de": "Zubeh\u00f6r"
+        },
+        "childs": [
+          {
+            "name":
+            {
+              "en": "Wall Holder",
+              "de": "Wandhalterungen"
+            },
+            "childs": []
+          }]
+      }]
+  },
+  {
+    "name":
+    {
+      "en": "Coffee & Espresso",
+      "de": "Kaffee & Espresso"
+    },
+    "childs": [
+      {
+        "name":
+        {
+          "en": "Espresso - Automatic Machine",
+          "de": "Espresso - Vollautomaten"
+        },
+        "childs": []
+      },
+      {
+        "name":
+        {
+          "en": "Filter Coffee Machines",
+          "de": "Filterkaffeemaschinen"
+        },
+        "childs": []
+      },
+      {
+        "name":
+        {
+          "en": "Milk Frother",
+          "de": "Milchaufsch\u00e4umer"
+        },
+        "childs": []
+      },
+      {
+        "name":
+        {
+          "en": "Coffee Grinder",
+          "de": "Kaffeem\u00fchlen"
+        },
+        "childs": []
+      },
+      {
+        "name":
+        {
+          "en": "Coffee - Accessoires",
+          "de": "Kaffee - Zubeh\u00f6r"
+        },
+        "childs": []
+      }]
+  }
+]

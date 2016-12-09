@@ -1,0 +1,22 @@
+[
+  {
+    "name": "20AT",
+    "active": "1",
+    "rules": {
+      "rule": [
+        {
+          "country": "2",
+          "state": "0",
+          "tax": "20at",
+          "behaviour": "0"
+        },
+        {
+          "country": "1",
+          "state": "0",
+          "tax": "20at",
+          "behaviour": "0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,2 @@
+
+CoreShopDemo Plugin works!
