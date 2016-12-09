@@ -1,0 +1,15 @@
+[
+  {
+    "name" : "Demo-Carrier",
+    "label" : "Demo Carrier",
+    "delay" : 0,
+    "grade" : 1,
+    "trackingUrl" : "https://coreshop.at/track/%s",
+    "isFree" : false,
+    "taxRule" : "20at",
+    "rangeBehaviour" : "largest",
+    "shippingRules" : [
+      "Demo-0", "Demo-150", "Demo-2000"
+    ]
+  }
+]

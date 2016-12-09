@@ -15,6 +15,8 @@
 namespace CoreShopDemo\Install;
 
 use CoreShop\Exception;
+use CoreShop\Model\Carrier;
+use CoreShop\Model\Carrier\ShippingRule;
 use CoreShop\Model\Category;
 use CoreShop\Model\Index;
 use CoreShop\Model\Manufacturer;
@@ -408,6 +410,78 @@ class Demo
                 $filter->setFilters($filtersInstances);
                 $filter->setSimilarities($similaritiesInstances);
                 $filter->save();
+            }
+        }
+    }
+
+    /**
+     * @param $json
+     */
+    public function installDemoShippingRules($json) {
+        $file = PIMCORE_PLUGINS_PATH."/CoreShopDemo/data/demo/$json.json";
+
+        if (file_exists($file)) {
+            $config = \Zend_Json::decode(file_get_contents($file));
+
+            foreach($config as $values) {
+                $shippingRule = ShippingRule::getByField("name", $values['name']);
+
+                if(!$shippingRule instanceof ShippingRule) {
+                    $shippingRule = new ShippingRule();
+                }
+
+                $conditions = $values['conditions'];
+                $actions = $values['actions'];
+
+                $actionNamespace = 'CoreShop\\Model\\Carrier\\ShippingRule\\Action\\';
+                $conditionNamespace = 'CoreShop\\Model\\Carrier\\ShippingRule\\Condition\\';
+
+                $actionInstances = $shippingRule->prepareActions($actions, $actionNamespace);
+                $conditionInstances = $shippingRule->prepareConditions($conditions, $conditionNamespace);
+
+                $shippingRule->setValues($values);
+                $shippingRule->setActions($actionInstances);
+                $shippingRule->setConditions($conditionInstances);
+                $shippingRule->save();
+            }
+        }
+    }
+
+    /**
+     * @param $json
+     */
+    public function installDemoCarrier($json) {
+        $file = PIMCORE_PLUGINS_PATH."/CoreShopDemo/data/demo/$json.json";
+
+        if (file_exists($file)) {
+            $config = \Zend_Json::decode(file_get_contents($file));
+
+            foreach($config as $values) {
+                $carrier = Carrier::getByField("name", $values['name']);
+
+                if(!$carrier instanceof Carrier) {
+                    $carrier = new Carrier();
+                }
+
+                $carrier->setTaxRuleGroup(TaxRuleGroup::getByField("name", $values['taxRule']));
+                $carrier->setValues($values);
+                $carrier->save();
+
+                $i = 1;
+
+                foreach($values['shippingRules'] as $ruleName) {
+                    $i += 100;
+
+                    $rule = ShippingRule::getByField("name", $ruleName);
+
+                    if($rule instanceof ShippingRule) {
+                        $group = new Carrier\ShippingRuleGroup();
+                        $group->setPriority($i);
+                        $group->setCarrier($carrier);
+                        $group->setShippingRule($rule);
+                        $group->save();
+                    }
+                }
             }
         }
     }

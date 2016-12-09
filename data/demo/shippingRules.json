@@ -1,0 +1,71 @@
+[
+  {
+    "name" : "Demo-0",
+    "conditions" : [
+      {
+        "type" : "amount",
+        "minAmount" : "",
+        "maxAmount" : "150",
+        "elementType" : "condition"
+      },
+      {
+        "type" : "zones",
+        "zones" : [1],
+        "elementType" : "condition"
+      }
+    ],
+    "actions" : [
+      {
+        "type" : "fixedPrice",
+        "fixedPrice" : 5,
+        "elementType" : "action"
+      }
+    ]
+  },
+  {
+    "name" : "Demo-150",
+    "conditions" : [
+      {
+        "type" : "amount",
+        "minAmount" : "150",
+        "maxAmount" : "2000",
+        "elementType" : "condition"
+      },
+      {
+        "type" : "zones",
+        "zones" : [1],
+        "elementType" : "condition"
+      }
+    ],
+    "actions" : [
+      {
+        "type" : "fixedPrice",
+        "fixedPrice" : 10,
+        "elementType" : "action"
+      }
+    ]
+  },
+  {
+    "name" : "Demo-2000",
+    "conditions" : [
+      {
+        "type" : "amount",
+        "minAmount" : "2000",
+        "maxAmount" : "3000",
+        "elementType" : "condition"
+      },
+      {
+        "type" : "zones",
+        "zones" : [1],
+        "elementType" : "condition"
+      }
+    ],
+    "actions" : [
+      {
+        "type" : "fixedPrice",
+        "fixedPrice" : 20,
+        "elementType" : "action"
+      }
+    ]
+  }
+]

@@ -34,10 +34,12 @@ class CoreShopDemo_Admin_InstallController extends Admin
         //$install->installDemoDataTaxes('taxes');
         //$install->installDemoDataTaxRules('taxRules');
         //$install->installDemoManufacturers('manufacturers');
-        //$install->installDemoIndex('index');
-        $install->installDemoFilter('filters');
-        $install->installDemoDataCategories('categories');
+        //$install->installDemoIndex('indexes');
+        //$install->installDemoFilter('filters');
+        //$install->installDemoDataCategories('categories');
         //$install->installDemoDataProducts('products');
+        $install->installDemoShippingRules('shippingRules');
+        $install->installDemoCarrier('carriers');
 
         \Pimcore::getEventManager()->trigger('coreshop.install.demo.post', null, array('installer' => $install));
 
