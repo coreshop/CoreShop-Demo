@@ -398,11 +398,8 @@ class Demo
                     $filter = Product\Filter::create();
                 }
 
-                $conditionNamespace = 'CoreShop\\Model\\Product\\Filter\\Condition\\';
-                $similarityNamespace = 'CoreShop\\Model\\Product\\Filter\\Similarity\\';
-
-                $filtersInstances = $filter->prepareConditions($values['conditions'], $conditionNamespace);
-                $similaritiesInstances = $filter->prepareSimilarities($values['similarities'], $similarityNamespace);
+                $filtersInstances = $filter->prepareConditions($values['conditions']);
+                $similaritiesInstances = $filter->prepareSimilarities($values['similarities']);
 
                 $filter->setValues($values);
                 $filter->setIndex(Index::getByField("name", "demo")->getId());
@@ -433,11 +430,8 @@ class Demo
                 $conditions = $values['conditions'];
                 $actions = $values['actions'];
 
-                $actionNamespace = 'CoreShop\\Model\\Carrier\\ShippingRule\\Action\\';
-                $conditionNamespace = 'CoreShop\\Model\\Carrier\\ShippingRule\\Condition\\';
-
-                $actionInstances = $shippingRule->prepareActions($actions, $actionNamespace);
-                $conditionInstances = $shippingRule->prepareConditions($conditions, $conditionNamespace);
+                $actionInstances = $shippingRule->prepareActions($actions);
+                $conditionInstances = $shippingRule->prepareConditions($conditions);
 
                 $shippingRule->setValues($values);
                 $shippingRule->setActions($actionInstances);
