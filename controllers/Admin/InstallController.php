@@ -34,7 +34,13 @@ class CoreShopDemo_Admin_InstallController extends Admin
         $install->installDemoDataTaxes('taxes');
         $install->installDemoDataTaxRules('taxRules');
         $install->installDemoManufacturers('manufacturers');
-        $install->installDemoIndex('indexes');
+
+        if(\CoreShop\Version::getBuildNumber() < 123) {
+            $install->installDemoIndex('indexes');
+        }
+        else {
+            $install->installDemoIndex123('indexes-123');
+        }
         $install->installDemoFilter('filters');
         $install->installDemoDataCategories('categories');
         $install->installDemoDataProducts('products');

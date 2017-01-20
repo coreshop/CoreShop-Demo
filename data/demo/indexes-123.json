@@ -1,0 +1,59 @@
+[
+  {
+    "name" : "demo",
+    "type" : "mysql",
+    "fields" : [
+      {
+        "key" : "articleNumber",
+        "name" : "articleNumber",
+        "objectType" : "object",
+        "columnType" : "STRING"
+      },
+      {
+        "key" : "name",
+        "name" : "nameDe",
+        "objectType" : "localizedfields",
+        "getter" : "Localizedfield",
+        "getterConfig" : {
+          "locale" : "de"
+        },
+        "dataType" : "input",
+        "columnType" : "STRING"
+      },
+      {
+        "key" : "name",
+        "name" : "nameEn",
+        "objectType" : "localizedfields",
+        "getter" : "Localizedfield",
+        "getterConfig" : {
+          "locale" : "de"
+        },
+        "dataType" : "input",
+        "columnType" : "STRING"
+      },
+      {
+        "key" : "manufacturer",
+        "name" : "manufacturer",
+        "objectType" : "object",
+        "dataType" : "href",
+        "interpreter" : "ObjectProperty",
+        "interpreterConfig" : {
+          "property" : "name"
+        },
+        "columnType" : "STRING"
+      },
+      {
+        "key" : "name",
+        "name" : "similarityIndex",
+        "objectType" : "localizedfields",
+        "getter" : "Localizedfield",
+        "getterConfig" : {
+          "locale" : "en"
+        },
+        "dataType" : "input",
+        "interpreter" : "Soundex",
+        "columnType" : "INTEGER"
+      }
+    ]
+  }
+]

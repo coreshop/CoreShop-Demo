@@ -300,6 +300,8 @@ class Demo
      * @param $json
      *
      * @throws Exception
+     *
+     * @deprecated
      */
     public function installDemoIndex($json) {
         $file = PIMCORE_PLUGINS_PATH."/CoreShopDemo/data/demo/$json.json";
@@ -353,6 +355,93 @@ class Demo
                             $columnObject = new $class();
 
                             if ($columnObject instanceof \CoreShop\Model\Index\Config\Column\AbstractColumn) {
+                                $columnObject->setValues($col);
+
+                                if (in_array($columnObject->getName(), $prohibitedFieldNames)) {
+                                    throw new Exception(sprintf('Field Name "%s" is prohibited for indexes', $columnObject->getName()));
+                                }
+
+                                $columnObject->validate();
+
+                                $columns[] = $columnObject;
+                            }
+                        }
+
+                        $config->setColumns($columns);
+                        $index->setConfig($config);
+                    } else {
+                        throw new Exception('Config class for type ' . $values['type'] . ' not instanceof \CoreShop\Model\Index\Config');
+                    }
+
+                } else {
+                    throw new Exception('Config class for type ' . $values['type'] . ' not found');
+                }
+
+                $index->save();
+
+                \CoreShop\IndexService::getIndexService()->getWorker($index->getName())->createOrUpdateIndexStructures();
+            }
+        }
+    }
+
+    /**
+     * Install Demo Index for Build >= 123
+     *
+     * @param $json
+     * @throws Exception
+     */
+    public function installDemoIndex123($json) {
+        $file = PIMCORE_PLUGINS_PATH."/CoreShopDemo/data/demo/$json.json";
+
+        $prohibitedFieldNames = ["name", "id"];
+
+        if (file_exists($file)) {
+            $index = \Zend_Json::decode(file_get_contents($file));
+
+            foreach($index as $values) {
+                $index = Index::getByField("name", $values['name']);
+
+                if(!$index instanceof Index) {
+                    $index = Index::create();
+                }
+
+                $index->setName($values['name']);
+                $index->setType($values['type']);
+
+                $configClass = '\\CoreShop\\Model\\Index\\Config\\' . ucfirst($values['type']);
+
+                if (Tool::classExists($configClass)) {
+                    $config = new $configClass();
+
+                    if ($config instanceof \CoreShop\Model\Index\Config) {
+                        $columns = array();
+
+                        foreach ($values['fields'] as $col)
+                        {
+                            $objectType = ucfirst($col['objectType']);
+
+                            if (!$col['key']) {
+                                continue;
+                            }
+
+                            $class = null;
+
+                            //Allow Column-Types to be declared in Template and/or Website
+                            $columnNamespace = '\\CoreShop\\Model\\Index\\Config\\Column\\';
+                            $columnClass = $columnNamespace . $objectType;
+
+                            if (Tool::classExists($columnClass)) {
+                                $class = $columnClass;
+                            }
+
+                            if (!$class) {
+                                //Use fallback column
+                                throw new Exception('No config implementation for column with type ' . $objectType . ' found');
+                            }
+
+                            $columnObject = new $class();
+
+                            if ($columnObject instanceof \CoreShop\Model\Index\Config\Column) {
                                 $columnObject->setValues($col);
 
                                 if (in_array($columnObject->getName(), $prohibitedFieldNames)) {
